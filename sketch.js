@@ -6,7 +6,7 @@ function preload(){
 }
 
 function setup(){
-    createCanvas(img.width,img.height);
+    createCanvas(img.width,img.height).parent("sketch-holder");
 }
 
 function draw(){
